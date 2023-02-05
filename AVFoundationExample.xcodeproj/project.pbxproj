@@ -13,6 +13,7 @@
 		FA4A2B13298BD98900C38BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4A2B11298BD98900C38BB0 /* Main.storyboard */; };
 		FA4A2B15298BD98B00C38BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4A2B14298BD98B00C38BB0 /* Assets.xcassets */; };
 		FA4A2B18298BD98B00C38BB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4A2B16298BD98B00C38BB0 /* LaunchScreen.storyboard */; };
+		FAAA8277298FEF8F00C639C0 /* iphone-11-pro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAAA8276298FEF8F00C639C0 /* iphone-11-pro.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA4A2B14298BD98B00C38BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA4A2B17298BD98B00C38BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA4A2B19298BD98B00C38BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAA8276298FEF8F00C639C0 /* iphone-11-pro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "iphone-11-pro.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FA4A2B0B298BD98900C38BB0 /* AppDelegate.swift */,
 				FA4A2B0D298BD98900C38BB0 /* SceneDelegate.swift */,
 				FA4A2B0F298BD98900C38BB0 /* ViewController.swift */,
+				FAAA8276298FEF8F00C639C0 /* iphone-11-pro.mp3 */,
 				FA4A2B11298BD98900C38BB0 /* Main.storyboard */,
 				FA4A2B14298BD98B00C38BB0 /* Assets.xcassets */,
 				FA4A2B16298BD98B00C38BB0 /* LaunchScreen.storyboard */,
@@ -128,6 +131,7 @@
 				FA4A2B18298BD98B00C38BB0 /* LaunchScreen.storyboard in Resources */,
 				FA4A2B15298BD98B00C38BB0 /* Assets.xcassets in Resources */,
 				FA4A2B13298BD98900C38BB0 /* Main.storyboard in Resources */,
+				FAAA8277298FEF8F00C639C0 /* iphone-11-pro.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
