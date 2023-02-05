@@ -11,6 +11,8 @@ class ViewController: UIViewController {
     
     var isPlaying = false
     
+    var playSound: PlaySound!
+    
     var playButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -21,12 +23,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setConstrainst()
+        playSound = PlaySound()
     }
     
     @objc func playButtonTapped() {
-       
+        playSound.startStopPlay()
         if isPlaying {
             playButton.setImage(UIImage(systemName: "play.circle"), for: .normal)
             isPlaying = false
